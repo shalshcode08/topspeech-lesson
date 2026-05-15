@@ -1,0 +1,49 @@
+$cream:        #F4F8F2;
+$mist:         #E5EBE0;
+$sand:         #D7DED0;
+$ink:          #1B2540;
+$slate:        #5A6478;
+
+$primary:      #5A8472;
+$primary-deep: #3F6B5C;
+$primary-soft: #D6E8D2;
+
+$sage:         #6B9080;
+$sage-soft:    #CFE0D5;
+
+$amber:        #E5A35E;
+$amber-soft:   #F6E2C6;
+
+$lip:          #A6796D;
+$lip-deep:     #8A5F54;
+$tongue:       #D4A89B;
+
+$font-sans:    'Inter', system-ui, -apple-system, sans-serif;
+$font-display: 'Fraunces', Georgia, serif;
+
+$radius-sm: 12px;
+$radius-md: 16px;
+$radius-lg: 24px;
+$radius-pill: 999px;
+
+$shadow-soft:    0 1px 2px rgba(27,37,64,0.04), 0 8px 24px -8px rgba(27,37,64,0.12);
+$shadow-softer:  0 1px 2px rgba(27,37,64,0.03), 0 4px 16px -8px rgba(27,37,64,0.08);
+$shadow-inset:   inset 0 0 0 1px rgba(27,37,64,0.06);
+
+$app-max-width: 460px;
+
+:root {
+  --color-cream:        #{$cream};
+  --color-ink:          #{$ink};
+  --color-slate:        #{$slate};
+  --color-primary:      #{$primary};
+  --color-primary-deep: #{$primary-deep};
+  --color-primary-soft: #{$primary-soft};
+  --color-sage:         #{$sage};
+  --color-sage-soft:    #{$sage-soft};
+  --color-amber:        #{$amber};
+  --color-amber-soft:   #{$amber-soft};
+  --color-lip:          #{$lip};
+  --color-lip-deep:     #{$lip-deep};
+  --color-tongue:       #{$tongue};
+}

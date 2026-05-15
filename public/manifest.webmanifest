@@ -1,0 +1,14 @@
+{
+  "name": "TopSpeech · Daily Lesson",
+  "short_name": "TopSpeech",
+  "description": "A daily speech therapy lesson — warm, clinical, and considered.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F4F8F2",
+  "theme_color": "#F4F8F2",
+  "icons": [
+    { "src": "./icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

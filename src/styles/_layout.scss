@@ -1,0 +1,61 @@
+@use 'tokens' as *;
+
+.ambient {
+  position: fixed;
+  inset: 0;
+  z-index: -10;
+  pointer-events: none;
+  overflow: hidden;
+
+  &__blob {
+    position: absolute;
+    border-radius: 9999px;
+    filter: blur(56px);
+  }
+  &__blob--a { top: -8rem; left: -6rem; width: 460px; height: 460px; background: rgba($primary-soft, .6); }
+  &__blob--b { top: 40%;    right: -8rem; width: 420px; height: 420px; background: rgba($sage-soft, .5); }
+  &__blob--c { bottom: -10rem; left: 33%;  width: 380px; height: 380px; background: rgba($amber-soft, .55); }
+}
+
+.app-shell {
+  margin-inline: auto;
+  width: 100%;
+  max-width: $app-max-width;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  padding: max(env(safe-area-inset-top), 14px) 20px 12px;
+  background: rgba($cream, .85);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  &__row { display: flex; align-items: center; gap: 12px; }
+}
+
+.screen {
+  flex: 1;
+  padding: 8px 20px max(env(safe-area-inset-bottom), 20px);
+  display: flex;
+  flex-direction: column;
+}
+
+.screen-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding-top: 8px;
+}
+
+.spacer-auto { margin-top: auto; }
+.text-center { text-align: center; }
+
+@media (min-width: 768px) {
+  .app-shell { box-shadow: $shadow-soft; }
+}
