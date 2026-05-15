@@ -12,7 +12,7 @@ Warm, clinical, and considered — built for users working through real speech v
 ![PWA](https://img.shields.io/badge/PWA-installable-5A8472?logo=pwa&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-1B2540)
 
-[**Live demo**](#) · [**Source**](#) · [**Walkthrough**](#)
+[**Live demo**](https://topspeech-lesson.somushrestha448.workers.dev/) · [**Source**](https://github.com/shalshcode08/topspeech-lesson)
 
 </div>
 
