@@ -1,4 +1,4 @@
-const CACHE = 'topspeech-v1';
+const CACHE = 'topspeech-v2-green';
 const ASSETS = ['./', './index.html', './manifest.webmanifest', './icons/icon.svg'];
 
 self.addEventListener('install', (e) => {
